@@ -173,19 +173,19 @@ Estilos dos componentes do projeto
 .logo-container {
   display: flex;
   align-items: center;
-  margin: 40px 0 20px 0;
+  margin: 80px 0 20px 0;
  
 }
 
 .logo-container img {
-  width: 52px;
+  width: 90px;
 }
 
 .logo-container h1 {
   font-family: 'Righteous';
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 60px;
   line-height: 45px;
   color: #FFFFFF;
   margin-left: 20px;
@@ -241,8 +241,8 @@ Estilos dos componentes do projeto
 }
 
 .pergunta-fechada {
-  width: 300px;
-  height: 35px;
+  width: 450px;
+  height: 100px;
   background-color: #FFFFFF;
   margin: 12px;
   padding: 15px;
@@ -257,13 +257,20 @@ Estilos dos componentes do projeto
   font-family: 'Recursive';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 23px;
   line-height: 19px;
   color: #333333;
 }
 
+.pergunta-fechada > ion-icon{
+    padding-right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
 .pergunta-aberta {
-  width: 300px;
+  width: 450px;
+  height: 150px;
   margin: 12px;
   padding: 15px;
   min-height: 100px;

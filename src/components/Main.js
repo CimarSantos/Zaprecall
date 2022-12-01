@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Init from "./Init";
-import FlashcardsScr from "./FlashcardsScr";
+import FlashcardsScrn from "./FlashcardsScrn";
 
 const Main = () => {
   const [Initial, setinitial] = useState("Init");
@@ -9,7 +9,7 @@ const Main = () => {
       {Initial === "Init" ? (
         <Init setinitial={setinitial} />
       ) : (
-        <FlashcardsScr />
+        <FlashcardsScrn />
       )}
     </>
   );

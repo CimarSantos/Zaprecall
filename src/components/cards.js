@@ -1,27 +1,26 @@
 const cards = [
-  { question: "O que é JSX?", answer: "Uma extensão da linguagem JavaScript" },
+  { q: "O que é JSX?", a: "Uma extensão da linguagem JavaScript" },
   {
-    question: "O React é __",
-    answer: "Uma biblioteca JavaScript para construção de interfaces",
+    q: "O React é __",
+    a: "Uma biblioteca JavaScript para construção de interfaces",
   },
-  { question: "Componentes devem iniciar com __", answer: "Letra maiúscula" },
-  { question: "Podemos colocar __ dentro do JSX", answer: "expressões" },
+  { q: "Componentes devem iniciar com __", a: "Letra maiúscula" },
+  { q: "Podemos colocar __ dentro do JSX", a: "expressões" },
   {
-    question: "O ReactDOM nos ajuda __",
-    answer: "Interagindo com a DOM para colocar componentes React na mesma",
-  },
-  {
-    question: "Usamos o npm para __",
-    answer: "Gerenciar os pacotes necessários e suas dependências",
+    q: "O ReactDOM nos ajuda __",
+    a: "Interagindo com a DOM para colocar componentes React na mesma",
   },
   {
-    question: "Usamos props para __",
-    answer: "Passar diferentes informações para componentes",
+    q: "Usamos o npm para __",
+    a: "Gerenciar os pacotes necessários e suas dependências",
   },
   {
-    question: "Usamos estado (state) para __",
-    answer:
-      "Dizer para o React quais informações quando atualizadas devem renderizar a tela novamente",
+    q: "Usamos props para __",
+    a: "Passar diferentes informações para componentes",
+  },
+  {
+    q: "Usamos estado (state) para __",
+    a: "Dizer para o React quais informações quando atualizadas devem renderizar a tela novamente",
   },
 ];
 
