@@ -11,7 +11,7 @@ const FlashcardsScrn = () => {
         <h1>ZapRecall</h1>
       </div>
       {cards.map((q, i) => (
-        <Flashcards key={i} posicao={i + 1} pergunta={q.q} />
+        <Flashcards key={i} posicao={i + 1} question={q.q} answer={q.a} />
       ))}
     </div>
   );

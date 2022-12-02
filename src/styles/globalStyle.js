@@ -216,28 +216,42 @@ Estilos dos componentes do projeto
 }
 
 /* Você vai precisar trocar a cor dos botões e alguns textos!
-  VERDE = "#2FBE34"
+  VERDE = ""
   AMARELO = "#FF922E"
   VERMELHO = "#FF3030"
   CINZA = "#333333" 
 */
 
+.verde{
+    background-color: #2FBE34;
+}
+.amarelo{
+    background-color: #FF922E;
+}
+.vermelho{
+    background-color: #FF3030;
+}
+.cinza{
+    background-color: #333333;
+}
+
 .container-botoes > button {
-  width: 90px;
+  width: 125px;
+  height: 50px;
   font-family: 'Recursive';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: #FFFFFF;
-  background: blue;
   border-radius: 5px;
-  border: 1px solid blue;
+  border: none;
   padding:5px;
+  cursor: pointer;
 }
 
 .pergunta-fechada {
@@ -268,7 +282,7 @@ Estilos dos componentes do projeto
     cursor: pointer;
 }
 
-.pergunta-aberta {
+.pergunta-aberta, .repostas {
   width: 450px;
   height: 150px;
   margin: 12px;
@@ -292,8 +306,22 @@ Estilos dos componentes do projeto
 .pergunta-aberta > img{
   position: absolute;
   bottom: 10px;
-  right: 10px;
+  right: 17px;
+  width: 27px;
+  cursor: pointer;
 }
+
+.repostas{
+    height: 180px;
+    font-size: 21px;
+    line-height: 25px;
+}
+.container-botoes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
 `;
 
 export default GlobalStyle;
