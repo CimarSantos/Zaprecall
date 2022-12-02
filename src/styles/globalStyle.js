@@ -160,7 +160,7 @@ Estilos dos componentes do projeto
 
 .screen-container{
   background-color: #FB6B6B;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -193,7 +193,7 @@ Estilos dos componentes do projeto
 
 .footer-concluidos {
   width: 100%;
-  min-height: 50px;
+  min-height: 110px;
   background-color: #FFFFFF;
   position: fixed;
   bottom: 0;
@@ -203,7 +203,7 @@ Estilos dos componentes do projeto
   justify-content: center;
   font-family: 'Recursive';
   font-weight: 400;
-  font-size: 18px;
+  font-size: 25px;
   color: #333333;
   padding: 10px;
 }

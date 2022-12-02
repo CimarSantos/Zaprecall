@@ -6,7 +6,8 @@ import Virar from "../assets/img/seta_virar.png";
 const Flashcards = ({ posicao, question, answer }) => {
   const [fechado, setFechado] = useState(false);
   const [aberto, setAberto] = useState(false);
-  const [resposta, setResposta] = useState(false);
+    const [resposta, setResposta] = useState(false);
+    const [respondidos, setRespondidos] = useState(0);
 
   function viraCarta() {
     setFechado(true);
