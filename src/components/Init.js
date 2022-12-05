@@ -7,7 +7,7 @@ const Init = ({ setinitial }) => {
     <Container>
       <img src={Logo} alt="Logo" />
       <h1>ZapRecall</h1>
-      <button onClick={() => setinitial("FlashcardsScr")}>
+      <button data-test="start-btn" onClick={() => setinitial("FlashcardsScr")}>
         Iniciar Recall!
       </button>
     </Container>

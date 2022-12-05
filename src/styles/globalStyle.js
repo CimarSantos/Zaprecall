@@ -234,6 +234,9 @@ Estilos dos componentes do projeto
 .cinza{
     background-color: #333333;
 }
+.tachado{
+    text-decoration: dashed;
+}
 
 .container-botoes > button {
   width: 125px;
@@ -254,7 +257,7 @@ Estilos dos componentes do projeto
   cursor: pointer;
 }
 
-.pergunta-fechada {
+.pergunta-fechada, .finalizada {
   width: 450px;
   height: 100px;
   background-color: #FFFFFF;
@@ -280,6 +283,10 @@ Estilos dos componentes do projeto
     padding-right: 10px;
     font-size: 40px;
     cursor: pointer;
+}
+
+.finalizada > p {
+    text-decoration: line-through;
 }
 
 .pergunta-aberta, .repostas {
